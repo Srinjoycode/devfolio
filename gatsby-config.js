@@ -3,56 +3,63 @@ module.exports = {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Srinjoy Bhuia',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Srinjoy | AI Developer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Machine Learning engineer based in Kolkata, India`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    author: `@BhuiyaSrinjoy`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/Srinjoycode`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://linkedin.com/in/srinjoy-bhuiya`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `I'm a enthusiastic Machine Learning engineer who has experience building , scaling and deploying state of the art Machine Learning and Deep Learning models in various domains. I'm also passionate about open-source contributions, with contributions in many high impact projects.I am currently building a startup which specialises in the domain of autonomous driving`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name:
+          'Implentation of a Driving lane detector Using a Autoencoder style model',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A deep learning model which is used to infer the drivable area in an image ',
+        link:
+          'https://github.com/Srinjoycode/UNET_pytorch_on_cityscapes_dataset',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Retinal Vessel identification',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'A research project to present a new model for retinal vessel detection in medical images',
+        link: 'https://github.com/Srinjoycode/Retina_Blood_Vessel_Segmentation',
       },
       {
-        name: 'Another Cool Project',
+        name: 'A full-stack TODO app',
+        description: 'Created using Flask and SQLite',
+        link: ' https://todo-app-flask-srinjoy.herokuapp.com/',
+      },
+      {
+        name: 'A corona-virus data-visualization project',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A Data analysis Case Study amidst the pandemic to show a correlation between urbanization and hospital bed availability ',
+        link: 'https://coronavirus-indian-data-app.herokuapp.com/',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'HEVA',
+        description: 'Machine Learning Enginner, April,2021-Present',
+        link: 'https://www.unschool.in/',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Unschool',
+        description: 'Sales and Marketing Intern',
+        link: 'https://www.unschool.in/',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Bachlors of technology, Computeer Science engineering 2019-23',
+        description: 'YGPA-9.23',
+        link: 'https://www.heritageit.edu/',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -60,16 +67,16 @@ module.exports = {
       {
         name: 'Languages & Frameworks',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Tensorflow, Pytorch, Flask, JavaScript (ES6+), Node.js, Express.js, React, Python, C, Java, Numpy, Pandas, Seaborn, Scikit-learn',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'MongoDB, SQLite, MySQL',
       },
       {
         name: 'Other',
         description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+          'Docker, Azure ,Google Cloud Platform, CI / CD, Kubeernetes , API design, git ',
       },
     ],
   },
